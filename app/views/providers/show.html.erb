@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @provider.name %>
+</p>
+
+<p>
+  <strong>Direction:</strong>
+  <%= @provider.direction %>
+</p>
+
+<p>
+  <strong>Distance:</strong>
+  <%= @provider.distance %>
+</p>
+
+<p>
+  <strong>Stars:</strong>
+  <%= @provider.stars %>
+</p>
+
+<%= link_to 'Edit', edit_provider_path(@provider) %> |
+<%= link_to 'Back', providers_path %>
